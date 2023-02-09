@@ -90,3 +90,32 @@
     grid-column-end: 3;
   
   }
+  .nokta{
+    grid-template-areas: nokta;
+  }
+  .designnokta{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .designeşittir{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .btn{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  .btn:hover{
+    background-color: bisque;
+    color:darkred;
+    cursor: pointer;
+  }
+  
+  .designsıfır{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+    width: 100%;
+    border-radius: 35px;
+  }
