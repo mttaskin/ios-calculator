@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ios Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calci">
+            <form name="form1" class="calci1" action="index.html" method="POST">
+                <input type="text" name="answer" id="display" style="width: 90%; height:100%; background-color:black; color:beige; border:none; font-size:30px;">
+        </div>
+        <div class="ac">
+            <input type="button" class="btn designac" value="AC" onclick="form1.answer.value=''" title="Hepsini sil">
+        </div>
+        <div class="dc">
+            <input type="button" class="btn designdc" value="C" onclick="form1.answer.value=form1.answer.value.substring(0, form1.answer.value.length*1-1)" title="Sil">
+
+        </div>
+        <div class="mod">
+            <input type="button" class="btn designmod" value="%" value="7" onclick="form1.answer.value +='%'" title="Mod">
+
+        </div>
+        <div class="bölü">
+            <input type="button" class="btn designbölü" value="÷" onclick="form1.answer.value +='/'" title="Bölü">
+
+        </div>
