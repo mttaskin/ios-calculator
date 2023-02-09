@@ -60,3 +60,33 @@
     background-color: rgb(73, 73, 73);
     color: beige;
   }
+  .designaltı{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .designeksi{
+    background-color: orange;
+    color: beige;
+  }
+  .designbir{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .designiki{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .designüç{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+  }
+  .designartı{
+    background-color: orange;
+    color: beige;
+  }
+  .sıfır{
+    grid-template-areas: sıfır;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+  }
