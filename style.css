@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4);
+    text-align: center;
+    padding: 120px 20px 30px;
+    background-color: black;
+    width: 350px;
+    border-radius: 35px;
+    row-gap: 10px;
+  }
+  .calci{
+    grid-column-start: 1;
+    grid-column-end: 5; 
+  }
+  .calci1{
+    height: 2rem;
+    width: 20rem;;
+  }
+  .designac{
+    background-color: rgb(177, 177, 177);
+  }
+  .designdc{
+    background-color: rgb(177, 177, 177);
+  }
